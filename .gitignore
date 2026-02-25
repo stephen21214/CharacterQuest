@@ -1,0 +1,22 @@
+# Gradle
+.gradle/
+build/
+out/
+
+# Forge run dirs and local worlds/logs
+run/
+run-data/
+logs/
+
+# IDE files
+.idea/
+*.iml
+*.ipr
+*.iws
+.classpath
+.project
+.settings/
+
+# OS files
+.DS_Store
+Thumbs.db
