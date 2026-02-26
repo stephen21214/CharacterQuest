@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "characterquest",
+  "version": "${version}",
+  "name": "CharacterQuests",
+  "description": "Get items for characters to earn better items in return.",
+  "authors": ["stephen"],
+  "license": "All Rights Reserved",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.stephen.characterquest.fabric.CharacterQuestFabric"
+    ],
+    "client": [
+      "com.stephen.characterquest.fabric.CharacterQuestFabric"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
